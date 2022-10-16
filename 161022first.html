@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            background-color: rgb(255,230,202);
+        }
+        .main{
+            width: 800px;
+            height: 550px;
+            background-color: white;
+            padding: 20px;
+        }
+        .first{
+            display: flex;
+            position: relative;
+        }
+        .name1{
+            position: absolute;
+            left: 50px;
+        }
+        .name2{
+            position: absolute;
+            right: 250px;
+        }
+        .name3{
+            position: absolute;
+            right: 0;
+        }
+        .name4{
+            position: absolute;
+            right: 150px;
+        }
+        .second{
+            height: 350px;
+            width: 700px;
+           
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin: 50px;
+            margin-bottom: 0%;
+        }
+        #tok{
+            width: 600px;
+            height: 300px;
+        }
+        #text{
+         
+           background-color: white;
+          
+            
+        }
+        .text1{
+            text-align: center;
+        }
+        .text2{
+            margin-left: 165px;
+        }
+        .box{
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 20px;
+        }
+        .box1{
+            width: 60px;
+            height: 30px;
+            border: 1px solid black;
+        }
+        .box2{
+            width: 60px;
+            height: 30px;
+            border: 1px solid black;
+        }
+        .symbol1{
+            text-align: center;
+        }
+        .symbol2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="first">
+           <h4 class="name1">Japan</h4>
+          <p class="name2">ABOUT</p>
+          <p class="name4">DISCOVER</p>
+          <p class="name3">PLAN YOUR TRIP</p>
+        </div>
+        <div class="second">
+            <h1 id="text">Explore<br>Tokyo</h1>
+            <img src="tokyo.jpg" id="tok" alt="imag">
+        </div>
+        <p class="text1">Tokyo Japan Capial mixes the ultramodern and the traditional, from </p>
+        <p class="text2">neon-lit skyscrapers to historic temples</p>
+        <div class="box">
+            <div class="box1"><h2 class="symbol1">←</h2></div>
+            <div class="box2"> <h2 class="symbol2">→</h2></div>
+        </div>
+    </div>
+</body>
+</html>
